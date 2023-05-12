@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>StreamingTag</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      padding-top: 70px;
+    }
+
+    .navbar-default {
+      height: 65px;
+    }
+
+    .navbar-default .navbar-brand {
+      padding-top: 0;
+      padding-bottom: 0;
+      line-height: 65px;
+      font-size: 18pt;
+    }
+
+    .navbar-nav>li>a {
+      padding-top: 0;
+      padding-bottom: 0;
+      line-height: 65px;
+      font-size: 16pt;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">StreamingTag Study</a>
+      </div>
+      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav ">
+          <li><a href="#about">About</a></li>
+          <li><a href="#download">Downloads</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="page-header">
+          <h2 id="about">About this Study</h2>
+          <p style="font-size: 16px">
+            Streaming services have billions of mobile subscribers, yet video piracy has cost service providers billions. Digital Rights Management (DRM), however, is still far from satisfactory. Unlike DRM, which attempts to prohibit the creation of pirated copies, fingerprinting may be used to track out the source of piracy. Nevertheless, existing fingerprinting-based streaming systems are not widely used since they fail to serve numerous users. In this paper, we present the design and evaluation of StreamingTag, a scalable piracy tracing system for mobile streaming services. StreamingTag adopts a segment-level fingerprint embedding scheme to remove the need of re-embedding the fingerprint into the video for each new viewer. The key innovations of StreamingTag include a scalable and CDN-friendly delivery framework, an accurate and lightweight temporal synchronization scheme, a polarized and randomized SVD watermarking scheme, and a collusion-resistant fingerprinting scheme. Experiment results show the good QoS of StreamingTag in terms of preparation latency, bandwidth consumption, and video fidelity. Compared with existing methods, the proposed three schemes improve the re-identification accuracy by 4-49x, the watermark extraction accuracy by 2.25x at most and 1.5x on average, and the recall rate of catching colluders by 26%.
+          </p>
+          <br>
+          <h2 id="download">Code Download</h2>
+          <p style="font-size: 16px">
+            Our paper has been accepted for
+            <a href="https://www.sigmobile.org/mobicom/2022/">MobiCom 2022</a>.<br>
+          </p>
+          <h4>Code</h4>
+          <p style="font-size: 16px">
+            We provide the customization code of StreamingTag on <a
+              href="https://github.com/StreamingTag/StreamingTag">GitHub</a>.<br>
+          </p>
+          <br>
+          <h2 id="contact">Contact</h2>
+          <p>
+            <b>dangfan</b> [AT] <b>tsinghua.edu.cn</b>
+          </p>
+          <p>
+            <b>jinxq21</b> [AT] <b>mails.tsinghua.edu.cn</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
